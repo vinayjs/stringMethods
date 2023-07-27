@@ -28,5 +28,20 @@ let names = "vinay"
 
 // 5. toLowerCase()
 let nameLowerCase = "VINAY"
-console.log(nameLowerCase.toLowerCase())
+// console.log(nameLowerCase.toLowerCase())
 // ans - vinay
+
+// 6. concat()
+let firstName = "Vinay"
+let lastName = "Chandran"
+let fullName = firstName.concat(" " + lastName)
+// console.log(fullName)
+// ans- Vinay Chandran
+// console.log(firstName + " " + lastName)
+// ans- Vinay Chandran
+
+// 7. trim()
+let myName = "  Vinay"
+// console.log(myName.trim())
+// ans- Vinay
+// The trim() method removes whitespace from both sides of a string.

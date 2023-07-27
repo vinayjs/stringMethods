@@ -45,3 +45,18 @@ let myName = "  Vinay"
 // console.log(myName.trim())
 // ans- Vinay
 // The trim() method removes whitespace from both sides of a string.
+
+// 8. trimStart()
+let x = "  Vinay Chandran"
+// console.log(x.trimStart())
+// The trimStart() method works like trim(), but removes whitespace only from the start of a string.
+
+// 9. trimEnd()
+let y = "Vinay Chandran   "
+// console.log(y.trimEnd())
+// The trimStart() method works like trim(), but removes whitespace only from the end of a string.
+
+// 10. charAt()
+let id = "vinay"
+// console.log(id.charAt(2))
+//The charAt() method returns the character at a specified index (position) in a string.

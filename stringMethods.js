@@ -60,3 +60,9 @@ let y = "Vinay Chandran   "
 let id = "vinay"
 // console.log(id.charAt(2))
 //The charAt() method returns the character at a specified index (position) in a string.
+
+// 11. split()
+let cars = "audi bmw ferrari"
+// console.log(cars.split(" "))
+//ans- [ 'audi', 'bmw', 'ferrari' ]
+// A string can be converted to an array with the split() method.

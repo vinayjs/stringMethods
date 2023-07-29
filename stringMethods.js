@@ -69,7 +69,7 @@ let cars = "audi bmw ferrari"
 
 // 12. indexOf()
 let quote = "My name is Vinay Chandran"
-console.log(quote.indexOf('Vinay'))
+// console.log(quote.indexOf('Vinay'))
 // ans-11
 //The indexOf() method returns the position of the first occurrence of a string in a string.
 // The method will return -1 if the text is not found.
@@ -79,3 +79,25 @@ let myself = "My name is Vinay Chandran and my friends call me Vinay"
 // console.log(myself.lastIndexOf('Vinay'))
 // ans-49
 //The lastIndexOf() method returns the index of the last occurrence of a specified text in a string.
+
+// 14. includes()
+let quoted = "vini vidi vici"
+// console.log(quoted.includes('vici'))
+// ans- true
+// The includes() method returns true if a string contains a specified value.
+
+// 15.startsWith()
+let sentence = "India is my country"
+// console.log(sentence.startsWith('India'))
+// ans- true
+// console.log(sentence.startsWith('America'))
+// ans- false
+//The startsWith() method returns true if a string begins with a specified value.
+
+// 16. endsWith()
+let sentenz = 'Messi is the greatest player in the world'
+// console.log(sentenz.endsWith('world'))
+// ans- true 
+// console.log(sentenz.endsWith('worlds')) 
+// ans- false
+// The endsWith() method returns true if a string ends with a specified value.

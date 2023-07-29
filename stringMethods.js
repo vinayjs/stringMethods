@@ -66,3 +66,16 @@ let cars = "audi bmw ferrari"
 // console.log(cars.split(" "))
 //ans- [ 'audi', 'bmw', 'ferrari' ]
 // A string can be converted to an array with the split() method.
+
+// 12. indexOf()
+let quote = "My name is Vinay Chandran"
+console.log(quote.indexOf('Vinay'))
+// ans-11
+//The indexOf() method returns the position of the first occurrence of a string in a string.
+// The method will return -1 if the text is not found.
+
+// 13. lastIndexOf()
+let myself = "My name is Vinay Chandran and my friends call me Vinay"
+// console.log(myself.lastIndexOf('Vinay'))
+// ans-49
+//The lastIndexOf() method returns the index of the last occurrence of a specified text in a string.
